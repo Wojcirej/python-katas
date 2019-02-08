@@ -1,9 +1,9 @@
 Feature: Total amount of points
 
   Scenario Outline: One of many test cases
-    Given a <games>
-     When function 'total_amount_of_points' called
-     Then it returns <result>
+    Given games = <games>
+     When function 'total_amount_of_points' is called with these params
+     Then function 'total_amount_of_points' returns <result>
 
      Examples: Games
      | games                                                                  | result |
