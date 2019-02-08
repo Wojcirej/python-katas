@@ -1,9 +1,9 @@
 Feature: Abbreviate two word name
 
   Scenario Outline: One of many test cases
-    Given name equals <name>
-    When called function 'abbreviate_two_word_name'
-    Then returns <initials>
+    Given name = <name>
+    When function 'abbreviate_two_word_name' called with these params
+    Then function 'abbreviate_two_word_name' returns <initials>
 
     Examples: Names
     | name           | initials |
