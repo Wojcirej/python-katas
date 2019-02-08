@@ -1,0 +1,93 @@
+Feature: Is divisible
+
+  Scenario Outline: One of many test cases
+    Given n = <n>, x = <x>, y = <y>
+    When function 'is_divisible' is called with these params
+    Then function 'is_divisible' returns <result>
+
+    Examples: Divisible
+    | n    | x  | y  | result |
+    | 3    | 1  | 3  | True   |
+    | 12   | 2  | 6  | True   |
+    | 100  | 5  | 3  | False  |
+    | 12   | 7  | 5  | False  |
+    | 99   | 7  | 1  | False  |
+    | 432  | 4  | 9  | True   |
+    | 57   | 1  | 14 | False  |
+    | 2401 | 8  | 15 | False  |
+    | 136  | 5  | 9  | False  |
+    | 481  | 3  | 20 | False  |
+    | 112  | 2  | 14 | True   |
+    | 1701 | 5  | 17 | False  |
+    | 487  | 3  | 18 | False  |
+    | 601  | 4  | 15 | False  |
+    | 761  | 10 | 19 | False  |
+    | 130  | 10 | 13 | True   |
+    | 41   | 4  | 2  | False  |
+    | 70   | 1  | 14 | True   |
+    | 73   | 8  | 3  | False  |
+    | 244  | 9  | 9  | False  |
+    | 180  | 10 | 1  | True   |
+    | 1672 | 8  | 11 | True   |
+    | 86   | 5  | 1  | False  |
+    | 1409 | 8  | 16 | False  |
+    | 90   | 1  | 15 | True   |
+    | 2128 | 8  | 19 | True   |
+    | 496  | 5  | 9  | False  |
+    | 325  | 5  | 13 | True   |
+    | 336  | 2  | 14 | True   |
+    | 397  | 6  | 11 | False  |
+    | 31   | 1  | 6  | False  |
+    | 80   | 10 | 1  | True   |
+    | 520  | 2  | 20 | True   |
+    | 1153 | 8  | 12 | False  |
+    | 240  | 4  | 15 | True   |
+    | 560  | 5  | 8  | True   |
+    | 864  | 8  | 18 | True   |
+    | 288  | 2  | 9  | True   |
+    | 55   | 1  | 9  | False  |
+    | 120  | 5  | 8  | True   |
+    | 378  | 7  | 18 | True   |
+    | 1248 | 8  | 13 | True   |
+    | 154  | 3  | 17 | False  |
+    | 390  | 6  | 13 | True   |
+    | 2296 | 9  | 17 | False  |
+    | 1800 | 10 | 20 | True   |
+    | 2380 | 7  | 20 | True   |
+    | 31   | 1  | 10 | False  |
+    | 136  | 9  | 3  | False  |
+    | 361  | 2  | 15 | False  |
+    | 162  | 3  | 3  | True   |
+    | 2551 | 10 | 15 | False  |
+    | 1248 | 6  | 16 | True   |
+    | 161  | 5  | 2  | False  |
+    | 129  | 4  | 2  | False  |
+    | 336  | 7  | 6  | True   |
+    | 991  | 6  | 15 | False  |
+    | 936  | 5  | 11 | False  |
+    | 761  | 4  | 10 | False  |
+    | 136  | 3  | 15 | False  |
+    | 18   | 9  | 2  | True   |
+    | 381  | 10 | 2  | False  |
+    | 180  | 10 | 6  | True   |
+    | 90   | 5  | 6  | True   |
+    | 65   | 2  | 16 | False  |
+    | 617  | 8  | 7  | False  |
+    | 589  | 7  | 7  | False  |
+    | 448  | 2  | 14 | True   |
+    | 560  | 7  | 5  | True   |
+    | 2160 | 8  | 15 | True   |
+    | 24   | 2  | 3  | True   |
+    | 151  | 3  | 5  | False  |
+    | 20   | 2  | 1  | True   |
+    | 541  | 9  | 4  | False  |
+    | 665  | 5  | 7  | True   |
+    | 1080 | 5  | 12 | True   |
+    | 61   | 1  | 20 | False  |
+    | 757  | 6  | 7  | False  |
+    | 171  | 1  | 19 | True   |
+    | 60   | 1  | 10 | True   |
+    | 841  | 8  | 15 | False  |
+    | 12   | 2  | 1  | True   |
+    | 60   | 3  | 5  | True   |
+    | 90   | 1  | 5  | True   |
