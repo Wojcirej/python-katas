@@ -1,6 +1,10 @@
 # Python katas
 My solutions of katas available on codewars.com gathered in one place - Python Edition.
 [![CodeWars](https://www.codewars.com/users/Wojcirej/badges/large)](https://www.codewars.com/users/Wojcirej/badges/large "My Honor Badge")
+
+This is archived repository now. This is dictated by a change of the testing framework for unit tests. The second version of my python katas solutions is available [here](https://github.com/Wojcirej/python-katas-vol2).
+
+At the same time, I want to have history of what I have written already, without much modification. That's why I don't want to refactor/make changes here anymore.
 # Set up (virtual) environment
 1. Install `virtualenv`:
 ```bash
